@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Automatic Evoked Response Detection (ER-Detect) dataset",
-  "description": "The Automatic Evoked Response Detection (ER-Detect) dataset comprises intracranial electrophysiological recordings collected to develop and validate automated methods for detecting evoked responses in clinical neuroimaging. This dataset integrates data from two major medical centers (Mayo Clinic and University Medical Center Utrecht) and includes carefully curated intracranial EEG recordings with annotated evoked response events, providing a resource for advancing computational approaches to clinical neurophysiology.",
+  "description": "The Automatic Evoked Response Detection (ER-Detect) dataset comprises intracranial electrophysiological recordings collected to develop and validate automated methods for detecting evoked responses in clinical neuroimaging. This dataset integrates data from two major medical centers (Mayo Clinic and University Medical Center Utrecht) and includes carefully curated intracranial EEG recordings with annotated evoked response events, providing a resource for advancing computational approaches to clinical neurophysiology. This dataset is mirrored on NEMAR from OpenNeuro.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -35,12 +35,6 @@
     },
     {
       "term": "electrocorticography"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "intracranial electrode"
     }
   ],
   "related_identifiers": [
