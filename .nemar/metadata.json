@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Automatic Evoked Response Detection (ER-Detect) dataset",
+  "description": "The Automatic Evoked Response Detection (ER-Detect) dataset comprises intracranial electrophysiological recordings collected to develop and validate automated methods for detecting evoked responses in clinical neuroimaging. This dataset integrates data from two major medical centers (Mayo Clinic and University Medical Center Utrecht) and includes carefully curated intracranial EEG recordings with annotated evoked response events, providing a resource for advancing computational approaches to clinical neurophysiology.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,12 +17,33 @@
     "G.A. Worrell": {},
     "D. Hermes": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004774.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "evoked responses"
+    },
+    {
+      "term": "automated detection"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "intracranial electrode"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004774",
       "identifier_type": "URL",
@@ -31,6 +53,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004774",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004774.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -43,12 +70,12 @@
       "award_number": "NEF17-07"
     }
   ],
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "32.4 GB (2690 files)"
   ],
   "formats": [
     ".eeg",
@@ -65,44 +92,8 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "The Automatic Evoked Response Detection (ER-Detect) dataset comprises intracranial EEG recordings collected to develop and validate automated methods for detecting evoked responses in clinical neurophysiology. This dataset includes data from patients with epilepsy recorded at Mayo Clinic and University Medical Center Utrecht, providing a resource for advancing computational approaches to identify stimulus-evoked neural activity in invasive electrophysiological recordings. This is a NEMAR-hosted mirror of the OpenNeuro dataset ds004774.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "Evoked Potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "automated detection"
-    },
-    {
-      "term": "clinical neurophysiology"
-    },
-    {
-      "term": "machine learning"
-    },
-    {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "Mayo Clinic"
-    },
-    {
-      "term": "University Medical Center Utrecht"
-    }
-  ],
-  "source_hash": "c570732854835cfa28384e8e5b114a3f48bd6a7b49b460c2a3cea0f1ff170260"
+  "source_hash": "807f536b949357a59e0d4a5b71ec6e72c03f367b33773605c74f315c9f1cc4c7"
 }
