@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004774",
+  "source": "openneuro",
+  "source_id": "ds004774",
+  "title": "Automatic Evoked Response Detection (ER-Detect) dataset",
+  "authors": {
+    "M.A. van den Boom": {},
+    "N.M. Gregg": {},
+    "G.O. Valencia": {},
+    "B.N. Lundstrom": {},
+    "K.J. Miller": {},
+    "D. van Blooijs": {},
+    "G.J.M. Huiskamp": {},
+    "F.S.S. Leijten": {},
+    "G.A. Worrell": {},
+    "D. Hermes": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004774.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "Brain Imaging Data Structure Specification v1.8.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIMH R01MH122258"
+    },
+    {
+      "funder_name": "Epilepsy Foundation of the Netherlands/Dutch Epilepsy Foundation, NEF17-07"
+    }
+  ],
+  "acknowledgements": "We thank Jaap van der Aar and Sam Buchl for their help in curating the data. For their contributions and help in collecting the data, we thank Cindy Nelson and Karla Crocket at the Mayo Clinic and the SEIN-UMCU RESPect database group at the UMC Utrecht (C.J.J. van Asch, L. van de Berg, S. Blok, M.D. Bourez, K.P.J. Braun, J.W. Dankbaar, C.H. Ferrier, T.A. Gebbink, P.H. Gosselaar, M.G.G. Hobbelink, F.W.A. Hoefnagels, N.E.C. van Klink, M.A. van ‘t Klooster, G.A.P. de Kort, M.H.M. Mantione, A. Muhlebner, J.M. Ophorst, R. van Regteren, P.C. van Rijen, S.M.A. van der Salm, E.V. Schaft, M.M.J. van Schooneveld, H. Smeding, D. Sun, A. Velders, M.J.E. van Zandvoort, G.J.M. Zijlmans, E. Zuidhoek and J. Zwemmer)."
+}
