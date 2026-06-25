@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004774",
-  "source": "openneuro",
-  "source_id": "ds004774",
+  "pipeline_stage": "enriched",
   "title": "Automatic Evoked Response Detection (ER-Detect) dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "M.A. van den Boom": {},
     "N.M. Gregg": {},
@@ -16,30 +16,93 @@
     "G.A. Worrell": {},
     "D. Hermes": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004774.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004774",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004774",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "Brain Imaging Data Structure Specification v1.8.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "NIMH R01MH122258"
+      "funder_name": "NIH",
+      "award_number": "R01MH122258"
     },
     {
-      "funder_name": "Epilepsy Foundation of the Netherlands/Dutch Epilepsy Foundation, NEF17-07"
+      "funder_name": "Epilepsy Foundation of the Netherlands",
+      "award_number": "NEF17-07"
     }
   ],
-  "acknowledgements": "We thank Jaap van der Aar and Sam Buchl for their help in curating the data. For their contributions and help in collecting the data, we thank Cindy Nelson and Karla Crocket at the Mayo Clinic and the SEIN-UMCU RESPect database group at the UMC Utrecht (C.J.J. van Asch, L. van de Berg, S. Blok, M.D. Bourez, K.P.J. Braun, J.W. Dankbaar, C.H. Ferrier, T.A. Gebbink, P.H. Gosselaar, M.G.G. Hobbelink, F.W.A. Hoefnagels, N.E.C. van Klink, M.A. van ‘t Klooster, G.A.P. de Kort, M.H.M. Mantione, A. Muhlebner, J.M. Ophorst, R. van Regteren, P.C. van Rijen, S.M.A. van der Salm, E.V. Schaft, M.M.J. van Schooneveld, H. Smeding, D. Sun, A. Velders, M.J.E. van Zandvoort, G.J.M. Zijlmans, E. Zuidhoek and J. Zwemmer)."
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gii",
+    ".json",
+    ".log",
+    ".mat",
+    ".md",
+    ".pial",
+    ".png",
+    ".tdat",
+    ".tidx",
+    ".tmet",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "The Automatic Evoked Response Detection (ER-Detect) dataset comprises intracranial EEG recordings collected to develop and validate automated methods for detecting evoked responses in clinical neurophysiology. This dataset includes data from patients with epilepsy recorded at Mayo Clinic and University Medical Center Utrecht, providing a resource for advancing computational approaches to identify stimulus-evoked neural activity in invasive electrophysiological recordings. This is a NEMAR-hosted mirror of the OpenNeuro dataset ds004774.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "automated detection"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "machine learning"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "Mayo Clinic"
+    },
+    {
+      "term": "University Medical Center Utrecht"
+    }
+  ],
+  "source_hash": "c570732854835cfa28384e8e5b114a3f48bd6a7b49b460c2a3cea0f1ff170260"
 }
