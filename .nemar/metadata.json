@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Automatic Evoked Response Detection (ER-Detect) dataset",
-  "description": "The Automatic Evoked Response Detection (ER-Detect) dataset comprises intracranial electrophysiological recordings collected to develop and validate automated methods for detecting evoked responses in clinical neuroimaging. This dataset integrates data from two major medical centers (Mayo Clinic and University Medical Center Utrecht) and includes carefully curated intracranial EEG recordings with annotated evoked response events, providing a resource for advancing computational approaches to clinical neurophysiology. This dataset is mirrored on NEMAR from OpenNeuro.",
+  "description": "This dataset comprises intracranial EEG recordings collected to support the development and validation of automatic evoked response detection (ER-Detect) methods. Data were gathered from patients undergoing electrical stimulation mapping at Mayo Clinic and University Medical Center Utrecht, aiming to characterize cortico-cortical evoked potentials for clinical and research applications in epilepsy and brain connectivity studies.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,19 +22,23 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "evoked responses"
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
     },
     {
-      "term": "automated detection"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "clinical neurophysiology"
+      "term": "cortico-cortical evoked potentials"
     },
     {
-      "term": "epilepsy"
+      "term": "electrical stimulation mapping"
     },
     {
-      "term": "electrocorticography"
+      "term": "brain connectivity"
     }
   ],
   "related_identifiers": [
@@ -44,23 +48,23 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004774",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004774.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004774",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "NIH",
+      "funder_name": "NIMH",
       "award_number": "R01MH122258"
     },
     {
-      "funder_name": "Epilepsy Foundation of the Netherlands",
+      "funder_name": "Epilepsy Foundation of the Netherlands/Dutch Epilepsy Foundation",
       "award_number": "NEF17-07"
     }
   ],
