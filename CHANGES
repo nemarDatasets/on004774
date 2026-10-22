@@ -1,2 +1,8 @@
+1.0.1 2026-10-22
+  - channels.tsv of the 5 MEF 3 recording(s): rows in the order the MEF 3 readers (pymef, MNE read_raw_mef) return the channels, sorted by name, instead of acquisition order; mne_bids read_raw_bids stopped with "Channel mismatch" before. Rows unchanged.
+  - README: section 'Channel order of the MEF 3 recordings'.
+  - channels.tsv: 17 rows with type 'n/a' (unconnected inputs C<n>, status bad) set to MISC (2 files).
+  - README: section 'Channel types'.
+
 1.0.0 2023-12-30
   - Initial version

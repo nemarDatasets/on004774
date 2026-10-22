@@ -1,0 +1,20 @@
+{
+  "silicon": {
+    "Description": "Whether the contact is recorded as silicon-based in the source deposit (yes/no), copied unchanged from on004080."
+  },
+  "soz": {
+    "Description": "Seizure-onset-zone indicator as deposited in on004080 (yes/no)."
+  },
+  "resected": {
+    "Description": "Whether the tissue at the contact was resected, as deposited in on004080 (yes/no)."
+  },
+  "edge": {
+    "Description": "Whether the contact lies at the edge of the grid or strip, as deposited in on004080 (yes/no)."
+  },
+  "Destrieux_label": {
+    "Description": "Numeric Destrieux atlas label code for the contact location, as deposited in on004080."
+  },
+  "Destrieux_label_text": {
+    "Description": "Text name of the Destrieux atlas region for the contact location, as deposited in on004080."
+  }
+}
